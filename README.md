@@ -11,11 +11,26 @@ npm install react-native-simple-view
 ## Usage
 
 ```js
-import SimpleView from "react-native-simple-view";
+import { View, Text, ThemeProvider, themes } from 'react-native-simple-view';
 
 // ...
 
-const result = await SimpleView.multiply(3, 7);
+<ThemeProvider theme={themes.light}>
+    <View
+        onPress={() => console.warn('press')}
+        radius-50
+        bg-pink
+        padding-10
+        center
+        margin-10
+    >
+        <Text size-50 color-blue bold>
+        test
+        </Text>
+    </View>
+
+</ThemeProvider>
+
 ```
 
 ## Contributing
