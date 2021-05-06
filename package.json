@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-view",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "react-native-simple-view",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
